@@ -1,0 +1,50 @@
+// Заголовки, общие БЄМ блоки и проче...
+
+.page {
+
+    // .page__main-block
+
+    &__main-block {
+        margin-bottom: rem(30);
+    }
+
+    // .page__advantages
+
+    &__advantages {
+        @include adaptiveValue("margin-bottom", 30, 70);
+    }
+
+    // .page__info-product
+
+    &__info-product {
+        @include adaptiveValue("margin-bottom", 50, 100);
+    }
+
+    // .page__new-products
+
+    &__new-products {
+        @include adaptiveValue("margin-bottom", 100, 50);
+    }
+
+    // .page__comments
+
+    &__comments {
+        margin-bottom: rem(100);
+    }
+}
+
+.page-product {
+
+    // .page-product__main-block
+
+    &__main-block {
+        @include adaptiveValue("padding-top", 210, 100);
+        padding-bottom: rem(50);
+    }
+
+    // .page-product__description
+
+    &__description {
+        @include adaptiveValue("margin-bottom", 100, 50);
+    }
+}

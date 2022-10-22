@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Продукт"
+})
+
+<body>
+    <div class="wrapper">
+        @@include('html/_header.htm',{})
+        <main class="page page-product">
+            <div class="page-product__main-block product-main">
+                <div class="product-main__container">
+                    <div class="product-main__sliders">
+                        <div class="product-main__slider swiper">
+                            <div class="product-main__wrapper swiper-wrapper">
+                                <div class="product-main__slide slide-product-main swiper-slide">
+                                    <div class="slide-product-main__image-ibg">
+                                        <img src="@img/product-slide-main/02.jpg" alt="products image">
+                                    </div>
+                                </div>
+                                <div class="product-main__slide slide-product-main swiper-slide">
+                                    <div class="slide-product-main__image-ibg">
+                                        <img src="@img/product-slide-main/01.jpg" alt="products image">
+                                    </div>
+                                </div>
+                                <div class="product-main__slide slide-product-main swiper-slide">
+                                    <div class="slide-product-main__image-ibg">
+                                        <img src="@img/product-slide-main/03.jpg" alt="products image">
+                                    </div>
+                                </div>
+                                <div class="product-main__slide slide-product-main swiper-slide">
+                                    <div class="slide-product-main__image-ibg">
+                                        <img src="@img/product-slide-main/04.jpg" alt="products image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-main__thumbs thumbs-product">
+                            <div class="thumbs-product__slider swiper">
+                                <div class="thumbs-product__wrapper swiper-wrapper">
+                                    <div class="thumbs-product__slide slide-thumbs swiper-slide">
+                                        <div class="slide-thumbs__image-ibg">
+                                            <img src="@img/thumbs-product/01.jpg" alt="thumb image">
+                                        </div>
+                                    </div>
+                                    <div class="thumbs-product__slide slide-thumbs swiper-slide">
+                                        <div class="slide-thumbs__image-ibg">
+                                            <img src="@img/thumbs-product/02.jpg" alt="thumb image">
+                                        </div>
+                                    </div>
+                                    <div class="thumbs-product__slide slide-thumbs swiper-slide">
+                                        <div class="slide-thumbs__image-ibg">
+                                            <img src="@img/thumbs-product/03.jpg" alt="thumb image">
+                                        </div>
+                                    </div>
+                                    <div class="thumbs-product__slide slide-thumbs swiper-slide">
+                                        <div class="slide-thumbs__image-ibg">
+                                            <img src="@img/thumbs-product/04.jpg" alt="thumb image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-main__body body-product">
+                        <div class="body-product__title">Drone Light</div>
+                        <div class="body-product__subtitle">Super fast, easy control drone</div>
+                        <div class="body-product__price">$ 4.500,00</div>
+                        <div class="body-product__features">Drone features:</div>
+                        <ul class="body-product__list list-body">
+                            <li class="list-body__item item-list">
+                                <div class="item-list__icon">
+                                    <img src="@img/body-product__list/01.svg" alt="icon">
+                                </div>
+                                <div class="item-list__text">4K Camera Resolution</div>
+                            </li>
+                            <li class="list-body__item item-list">
+                                <div class="item-list__icon">
+                                    <img src="@img/body-product__list/02.svg" alt="icon">
+                                </div>
+                                <div class="item-list__text">2 TB Storage</div>
+                            </li>
+                            <li class="list-body__item item-list">
+                                <div class="item-list__icon">
+                                    <img src="@img/body-product__list/03.svg" alt="icon">
+                                </div>
+                                <div class="item-list__text">60 m/s Speed</div>
+                            </li>
+                            <li class="list-body__item item-list">
+                                <div class="item-list__icon">
+                                    <img src="@img/body-product__list/04.svg" alt="icon">
+                                </div>
+                                <div class="item-list__text">5000 mAh Battery</div>
+                            </li>
+                        </ul>
+                        <a href="" class="body-product__button button button_blue">order it now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="page-product__description description-product">
+                <div class="description-product__container">
+                    <div class="description-product__inner">
+                        <div class="description-product__title">Description</div>
+                        <p class="description-product__text">We provide a best self drone easy to use and operate. With
+                            auto pilot, the device will take a beautiful view for
+                            the best of flying operation. Drone light is every creators dream. Setting apperture
+                            manually and high battery
+                            performance. With 2 Terabyte storage, you can take a lot of picture in one take. 4K Camera
+                            resolution make
+                            your video clean and feels like a real environtment. Capture your moment in easy way
+                            effortlesly with auto
+                            pilot system. No need to learn how to fly and operate drone. Enjoy your simple and easy
+                            flying experience.
+                            Drone light is everything you need.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    @@include('html/_footer.htm',{})
+    </div>
+    @@include('html/_popup.htm',{})
+    @@include('html/_js.htm',{})
+</body>
+
+</html>
